@@ -1,0 +1,31 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    org.springframework: DEBUG
+spring:
+  messages:
+    basename: messages
+  security:
+    user:
+      name: ailiartsua
+      password: qw1212
+  datasource:
+    url: jdbc:h2:mem:testdb
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create
+  h2:
+    console:
+      enabled: true
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -1,10 +1,6 @@
 # study_spring_boot_jpa_restAPI
 인프런 DownLee 'Spring Boot를 이용한 RESTful Web Services 개발' 라이브 코딩 및 필기
 
-<p align="center">
-  <img src="https://github.com/AiliartsuaL2/study_spring_boot_jpa_restAPI/files/10334511/RestAPI.pdf">
-</p>
-
 SOAP : 메세지의 기본적인 전송수단,, xml을 사용,,
 http 통신 프로토콜에서 사용하는 xml 프로토콜 
 header와 body로 감싸야함(복잡, 오버헤드가 심함, 무거움)
